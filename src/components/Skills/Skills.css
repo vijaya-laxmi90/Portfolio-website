@@ -1,0 +1,139 @@
+#skills{
+    overflow: hidden;
+    width: 200;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.skillstitle{
+    font-size: 2.6rem;
+    font-weight: 600;
+    padding-top:3rem;
+    margin-bottom:.1.5rem;
+}
+.skillstitle {
+    color: rgb(250, 250, 0);
+}
+/* .skillsTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top:3rem;
+    margin-bottom:1.5rem;
+} */
+.skillsTitle {
+    font-size: 3rem; 
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background:linear-gradient(135deg, #ff9900 0%, #ff6600 100%); 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
+    margin-bottom: 20px; 
+    display: inline-block; 
+    display: inline-block; 
+  transition: all 0.3s ease;
+  }
+  .skillsTitle:hover {
+    color: #ffffff; 
+    background: linear-gradient(135deg, #ff9900 0%, #ff6600 100%); 
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7); 
+    transform: scale(1.1); 
+  }
+
+
+
+.skillsDesc  {
+   font-weight: 400;
+   font-size: 1rem;
+   max-width: 50rem;
+   padding: 0 2rem;
+}
+
+.skillsBars {
+    margin: 1.5rem auto; /* Center the container horizontally */
+    width: 100%;
+    max-width: 80vw;
+    text-align: right;
+}
+
+.skillsBar {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 1rem 0; /* Adjust the margin to have vertical spacing */
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    overflow: hidden; /* Ensure no overflow */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.skillsBar:hover {
+    transform: scale(1.05); /* Scale up the element on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow on hover */
+}
+.skillsBarImg {
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 2rem;
+}
+
+.skillsBarText {
+    flex-grow: 1; 
+    min-width: 0; 
+    text-align: center;
+}
+.skillsBarText h2 {
+    margin: 0; /* Remove default margin */
+}
+.skillsBarText>p{
+    font-size:0.9rem ;
+    font-weight: 200;
+}
+
+@media screen and(max-width:480px){
+    .skillsBarText>p{
+        font-size: 3vw;
+    }
+    .skillsBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillsBarText>h2{
+        font-size:5vw;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid rgb(51, 46, 46);
+    border-radius: 10px;
+    padding: 20px;
+    background-color:rgb(28, 26, 26); /* Cement color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    max-width: 350px;
+    margin: 20px auto 0 auto;
+}
+
+.info div {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #e0e0e0; /* Grey background for the text boxes */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #010101;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.info div:hover {
+    background-color:yellow ;
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
