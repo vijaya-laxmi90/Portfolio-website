@@ -59,7 +59,7 @@ const Works=() =>{
       <p>
       "I built a comprehensive portfolio website using React.js as a full stack project. This project showcases my skills in React.js development and full stack web applications. It demonstrates my ability to create dynamic and responsive web designs."
       </p>
-      <a href="https://currencyconverterok.netlify.app/" target="_blank">Visit via this link</a>
+      <a href="https://portfolio-website-ffua.vercel.app/" target="_blank">Visit via this link</a>
     </div>
   </div>
  
