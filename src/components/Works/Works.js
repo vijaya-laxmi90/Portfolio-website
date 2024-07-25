@@ -49,7 +49,7 @@ const Works=() =>{
       <p>
         "Developed a complete food ordering website/web app using React.js,Bootstrap, implementing full stack functionality. The project showcases my skills in building dynamic, responsive web applications. Integrated various features to enhance user experience and streamline the ordering process."
       </p>
-      <a href="https://currencyconverterok.netlify.app/" target="_blank">Visit via this link</a>
+      <a href="https://food-website-jade-three.vercel.app/" target="_blank">Visit via this link</a>
     </div>
   </div>
   <div className='worksImgs'>
