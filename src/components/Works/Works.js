@@ -45,7 +45,7 @@ const Works=() =>{
   <div className='worksImgs'>
     <img src={fd} alt='' className='worksImg'/>
     <div className="content">
-      <h2>Food Deleivery app</h2>
+      <h2>Food Delivery app</h2>
       <p>
         "Developed a complete food ordering website/web app using React.js,Bootstrap, implementing full stack functionality. The project showcases my skills in building dynamic, responsive web applications. Integrated various features to enhance user experience and streamline the ordering process."
       </p>
