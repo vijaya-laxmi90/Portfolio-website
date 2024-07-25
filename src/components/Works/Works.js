@@ -62,7 +62,16 @@ const Works=() =>{
       <a href="https://portfolio-website-ffua.vercel.app/" target="_blank">Visit via this link</a>
     </div>
   </div>
- 
+ <div className='worksImgs'>
+    <img src={todo} alt='' className='worksImg'/>
+    <div className="content">
+      <h2>Todo project</h2>
+      <p>
+      "Creating a ToDo project using React.js and Tailwind CSS is an excellent way to practice frontend development skills while building a functional and visually appealing application".
+      </p>
+      <a href="https://todo-project-vert.vercel.app/" target="_blank">Visit via this link</a>
+    </div>
+  </div>
 </div>
 <button className='workBtn'>See More</button>
 
