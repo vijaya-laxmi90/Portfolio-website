@@ -46,7 +46,7 @@ function Contact() {
 
         <div class="contactItem">
             
-            <div class="info"><a href="https://www.linkedin.com/in/vijayalaxmi90/" target="_blank">Linedin</a></div>
+            <div class="info"><a href="https://www.linkedin.com/in/vijayalaxmi90/" target="_blank">Linkedin</a></div>
         </div>
 
         <div class="contactItem">
