@@ -72,7 +72,7 @@ const Works=() =>{
       <a href="https://todo-project-vert.vercel.app/" target="_blank">Visit via this link</a>
     </div>
   </div>
-</div>
+
 <button className='workBtn'>See More</button>
 
    </secton>
