@@ -4,6 +4,7 @@ import ccc from '../../assets/ccc.png'
 import rr from '../../assets/rr.png'
 import fd from '../../assets/fd.png'
 import pr from '../../assets/pr.png'
+import todo from '../../assets/todo.png'
 
 const Works=() =>{
   return (
@@ -45,7 +46,7 @@ const Works=() =>{
   <div className='worksImgs'>
     <img src={fd} alt='' className='worksImg'/>
     <div className="content">
-      <h2>Food Delivery app</h2>
+      <h2>Food Deleivery app</h2>
       <p>
         "Developed a complete food ordering website/web app using React.js,Bootstrap, implementing full stack functionality. The project showcases my skills in building dynamic, responsive web applications. Integrated various features to enhance user experience and streamline the ordering process."
       </p>
@@ -62,7 +63,7 @@ const Works=() =>{
       <a href="https://portfolio-website-ffua.vercel.app/" target="_blank">Visit via this link</a>
     </div>
   </div>
- <div className='worksImgs'>
+  <div className='worksImgs'>
     <img src={todo} alt='' className='worksImg'/>
     <div className="content">
       <h2>Todo project</h2>
@@ -72,7 +73,7 @@ const Works=() =>{
       <a href="https://todo-project-vert.vercel.app/" target="_blank">Visit via this link</a>
     </div>
   </div>
-
+</div>
 <button className='workBtn'>See More</button>
 
    </secton>
@@ -80,3 +81,4 @@ const Works=() =>{
 }
 
 export default Works
+
